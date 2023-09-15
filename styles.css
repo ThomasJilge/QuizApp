@@ -1,0 +1,92 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizCard {
+    width: 32rem;
+}
+
+.questionFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizAnswerCard:hover {
+    cursor: pointer;
+    background-color: rgb(243, 238, 238);
+}
+
+.cardAnswer{
+    padding: 10px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCard {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.spanFooter {
+    display: flex;
+    align-items: center;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.finaleHeadline {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+#nextButton {
+    background-color: #4EBF18;
+    border-color: #4EBF18;
+    color: black;
+    font-weight: bold;
+}
+
+#nextButton:hover {
+    background-color: rgb(4, 168, 4);
+    border-color: rgb(4, 168, 4);
+}
+
+.progress-bar {
+    background-color: #4EBF18;
+}
+
+.buttonNewGame {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+#btnNewGame {
+    background-color: #4EBF18;
+    border-color: #4EBF18;
+    color: black;
+    font-weight: bold;;
+}
+
+#btnNewGame:hover {
+    background-color: rgb(4, 168, 4);
+    border-color: rgb(4, 168, 4);
+}
